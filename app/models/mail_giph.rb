@@ -1,0 +1,2 @@
+class MailGiph < ApplicationRecord
+end

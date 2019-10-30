@@ -1,7 +1,7 @@
 class ReminderMailer < ApplicationMailer
 
-  def reminer_email(user)
-    @user = user
-    mail(to:@user.email, subject: "Sabrina's Gone Postal #{Date.today}")
+  def reminder_email(user)
+    @letter_writer = user
+    mail(to:@letter_writer.email, subject: "Sabrina's Gone Postal #{Date.today}")
   end
 end

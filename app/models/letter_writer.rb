@@ -1,0 +1,3 @@
+class LetterWriter < ApplicationRecord
+
+end
